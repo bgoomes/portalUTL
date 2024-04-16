@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export function Header(){
     return (
-        <header className="w-full flex h-20 border-b border-black fixed bg-white">
+        <header className="w-full flex h-20 border-b border-black fixed bg-white z-10">
             <div className="m-auto w-[1080px] flex flex-row items-center justify-between">
                 <div className="flex items-center gap-8">
                     <div className=" w-48 p-4">
