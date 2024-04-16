@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'stihl_contraface_textregular';
+    src: url('../fonts/web/stihlcontrafacetext-webfont.woff2') format('woff2'),
+         url('../fonts/web/stihlcontrafacetext-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'stihl_contraface_textbold';
+    src: url('../fonts/web/stihlcontrafacetext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/web/stihlcontrafacetext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'stihl_contraface_text_lightRg';
+    src: url('../fonts/web/stihlcontrafacetextlight-webfont.woff2') format('woff2'),
+         url('../fonts/web/stihlcontrafacetextlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'stihl_contraface_display_meRg';
+    src: url('../fonts/web/stihlcontrafacedisplaymedium-webfont.woff2') format('woff2'),
+         url('../fonts/web/stihlcontrafacedisplaymedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'stihl_contraface_display_tiRg';
+    src: url('../fonts/web/stihlcontrafacedisplaytitling-webfont.woff2') format('woff2'),
+         url('../fonts/web/stihlcontrafacedisplaytitling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
