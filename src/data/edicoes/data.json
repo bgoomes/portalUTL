@@ -1,0 +1,36 @@
+
+{
+    "edicoes": [
+        
+        {
+            "id": 68,
+            "title": "Edição 68",
+            "description": "#Partiu 2028",
+            "cover": "https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png",
+            "link": "/edicao68"
+        },
+        {
+            "id": 67,
+            "title": "Edição 67",
+            "description": "A liderança ta on.",
+            "cover": "https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png",
+            "link": "/edicao67"
+        },
+        {
+            "id": 66,
+            "title": "Edição 66",
+            "description": "Momento exige foco e união.",
+            "cover": "https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png",
+            "link": "/edicao66"
+        },
+        {
+            "id": 65,
+            "title": "Edição 65",
+            "description": "Educação financeira também é tema de liderança.",
+            "cover": "https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png",
+            "link": "/edicao65"
+        }
+        
+    ]
+}
+    

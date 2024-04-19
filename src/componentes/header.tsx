@@ -6,7 +6,7 @@ export function Header(){
             <div className="m-auto w-[1080px] flex flex-row items-center justify-between">
                 <div className="flex items-center gap-8">
                     <div className=" w-48 p-4">
-                        <img src="https://conexaostihl.com.br/src/utl/utl66/utl-logo.png" alt="Logo UTL" />
+                        <Link to='/'><img src="https://conexaostihl.com.br/src/utl/utl66/utl-logo.png" alt="Logo UTL" /></Link>
                     </div>
                     <nav>
                         <ul className="flex flex-row gap-4 text-xs font-stihl-bold">

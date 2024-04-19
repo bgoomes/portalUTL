@@ -1,14 +1,20 @@
-import { Footer } from "../componentes/footer";
-import { Header } from "../componentes/header";
+import { useLocation } from "react-router-dom";
+import { Page68 } from "../data/pageEdicoes/pageEd68";
+import { useEffect } from "react";
 
+
+function updateTitle(title: string) {
+    const location = useLocation();
+    useEffect(() => {
+      if (location.pathname === '/') {
+        document.title = title;
+      }
+    }, [location, title]);
+  }
 export function Home(){
+    updateTitle('#68 | UTL Líder')
+   
     return (
-        <div>
-            <Header />
-            <section className="relative top-24 border-4 w-[1080px] flex justify-center m-auto">
-                <h1 className=" font-stihl-display">home</h1>
-            </section>
-            <Footer />
-        </div>
+        <Page68 />
     )
 }

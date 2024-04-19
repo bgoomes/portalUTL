@@ -14,7 +14,10 @@ export default {
       },
       colors: {
         'laranjaStihl': '#f37a1f',
-        'HEADINGS': '#333333'
+        'HEADINGS': '#333333',
+        'footer': '#6c757d',
+        'gray': '#eee',
+        'gray-100': '#f5f5f5'
       }
     },
   },
