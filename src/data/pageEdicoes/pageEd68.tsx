@@ -16,32 +16,32 @@ function updateTitle(title: string) {
   }
 
 export function Page68(){
-    updateTitle('#68 | UTL Líder')
+    updateTitle('#68 MARÇO 2024 | UTL Líder')
     return(
-        <div className="">
+        <div>
             <Header />
-            <section className="relative shadow-slate-400 shadow-xl top-24 w-[700px] flex flex-col items-center m-auto">
+            <section className="relative shadow-slate-400 shadow-xl top-24 sm:w-[700px] flex flex-col items-center m-auto">
                 <div className="w-full">
                     <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png" alt="UTL Lider edição 68" />
                 </div>
                 <div className="w-full">
                     <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-partiu2028.png" alt="#partiu 2028" />
                 </div>
-                <div className="w-full flex flex-row gap-6 px-9 pt-4 bg-white">
-                    <div className="w-1/2 flex flex-col gap-4">
+                <div className="w-full flex flex-col sm:flex-row gap-6 px-9 pt-4 bg-white">
+                    <div className="sm:w-1/2 flex flex-col gap-4">
                         <div className="flex flex-col gap-2">
-                            <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/icone_01.png" alt="" className="w-[80px]"/>
+                            <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/icone_01.png" alt="" className="w-[80px] m-auto sm:m-0"/>
                             <h1 className=" text-laranjaStihl font-bold">ORIENTAÇÃO ESTRATÉGICA</h1>
                             <p>Atingir o faturamento mínimo de R$ 5 bilhões até 2028, garantindo a alta qualidade dos produtos e serviços com pessoas engajadas, motivadas e em conformidade com a cultura corporativa e o SIG - Sistema Integrado de Gestão, visando à satisfação do cliente.</p>
                         </div>
                         <div className="flex flex-col gap-2">
-                            <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/icone_02.png" alt="" className="w-[80px]"/>
+                            <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/icone_02.png" alt="" className="w-[80px] m-auto sm:m-0"/>
                             <h1 className="text-laranjaStihl font-bold">OBJETIVOS:</h1>
                             <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-objetivos.png" alt="" />
                         </div> 
                     </div>
                     
-                    <div className="w-1/2 text-right">
+                    <div className="sm:w-1/2 text-right">
                        <p>
                             “Em 2023 a STIHL enfrentou grandes desafios que trouxeram muitos aprendizados e também conquistas. 
                             Apesar do cenário, reforçamos o nosso pioneirismo em boas práticas e nos consolidamos como referência em vários aspectos, 
@@ -57,11 +57,11 @@ export function Page68(){
                 </div>
 
                 <div className="w-full h-48 flex flex-col items-center justify-center bg-laranjaStihl mt-4 text-white">
-                    <div className="flex flex-col items-center gap-4">
+                    <div className="flex flex-col items-center gap-4 p-4">
                         <h1 className="font-bold">PESSOAS NO CENTRO</h1>
                         <p className=" underline">Entre os objetivos de sustentação, destaca-se o pilar Pessoas:</p>
                     </div>
-                    <ul className="flex p-5 list-disc text-sm gap-4 mx-auto">
+                    <ul className="flex flex-col sm:flex-row p-5 list-disc text-sm sm:gap-4 mx-auto">
                         <li>Reforçar a cultura de gestão</li>
                         <li>Expandir competências digitais</li>
                         <li>Garantir condições de trabalho seguras</li>
@@ -83,8 +83,8 @@ export function Page68(){
                         <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-10dicas.png" alt="" />
                         <h1 className="px-9 font-bold">Confira orientações para um encontro online organizado e eficiente para todos os participantes.</h1>
                     </div>
-                    <div className="flex flex-row gap-6 px-9 mt-8">
-                        <div className="w-1/2 flex flex-col gap-4">
+                    <div className="flex flex-col sm:flex-row gap-6 px-9 mt-8">
+                        <div className="sm:w-1/2 flex flex-col gap-4">
                            
                             <p><span className="text-laranjaStihl">1. </span>Avalie a necessidade da agenda. Quem sabe não possa ser resolvido pelo bate-papo do Webex.</p>
                             <p><span className="text-laranjaStihl">2. </span>Não marque reuniões de última hora.</p>
@@ -98,7 +98,7 @@ export function Page68(){
                             <p><span className="text-laranjaStihl">10. </span>Não exceda o horário agendado.</p>
                             
                         </div>
-                        <div className="w-1/2 flex flex-col gap-10">
+                        <div className="sm:w-1/2 flex flex-col gap-10">
                             <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/Meme1.png" alt="" />
                             <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/Meme2.png" alt="" />
                             <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/Meme3.png" alt="" />
@@ -112,13 +112,13 @@ export function Page68(){
                         <div>
                             <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-ficadica.png" alt="" />
                         </div>
-                        <div className="flex gap-4 px-9">
-                            <div className="w-1/2 flex flex-col gap-4">
+                        <div className="flex flex-col sm:flex-row gap-4 px-9">
+                            <div className="sm:w-1/2 flex flex-col gap-4">
                                 <h2 className="font-bold">Douglas de Oliveira, Gerente de Engenharia e Tecnologia de Manufatura, sugere o livro Sapiens - Uma breve história da humanidade, de Yuval Noah Harari.</h2>
                                 <p>“Para mim, buscar conhecer mais o ser humano na sua individualidade é um caminho sem volta e de extrema relevância para o nosso desenvolvimento e o das pessoas à nossa volta. Independentemente de estarmos ou não em uma posição de liderança, não podemos perder a oportunidade de influenciar no desenvolvimento de todos com quem convivemos. Estar preparado é o primeiro passo, e este livro me trouxe muita reflexão sobre a essência do ser humano, nosso modus operandi.”</p>
                                 <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-livro.PNG" className="w-52" alt="" />
                             </div>
-                            <div className="w-1/2 flex flex-col gap-4">
+                            <div className="sm:w-1/2 flex flex-col gap-4">
                                 <img src="https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68Douglas-Oliveira.jpg" alt="" />
                                 <p className=" text-laranjaStihl font-semibold text-right">» Independentemente de estarmos ou não em uma posição de liderança, não podemos perder a oportunidade de influenciar no desenvolvimento de todos. «</p>
                                 <p className="text-right"><span className="font-bold">DOUGLAS DE OLIVEIRA</span>, GERENTE DE ENGENHARIA E TECNOLOGIA DE MANUFATURA</p>

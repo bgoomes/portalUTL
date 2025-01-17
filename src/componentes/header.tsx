@@ -2,10 +2,10 @@ import { Link } from "react-router-dom"
 
 export function Header(){
     return (
-        <header className="w-full flex h-20 border-b border-black fixed bg-white z-10">
-            <div className="m-auto w-[1080px] flex flex-row items-center justify-between">
+        <header className="w-full flex h-20 shadow-md fixed bg-white z-10">
+            <div className="sm:m-auto sm:w-[1080px] flex flex-row items-center justify-between">
                 <div className="flex items-center gap-8">
-                    <div className=" w-48 p-4">
+                    <div className="w-32 sm:w-48 p-4 ">
                         <Link to='/'><img src="https://conexaostihl.com.br/src/utl/utl66/utl-logo.png" alt="Logo UTL" /></Link>
                     </div>
                     <nav>
@@ -16,8 +16,8 @@ export function Header(){
                     </nav>
                 </div>
                 
-                <div className=" w-32 p-4">
-                    <img src="https://brandportal.stihl.com/assets/media/de/protected/stihl-logo.svg" alt="Logo Sthil" />
+                <div className=" w-32 p-4 hidden sm:flex">
+                    <img src="/logoStihl.png" alt="Logo Stihl" />
                 </div>
             </div>
             

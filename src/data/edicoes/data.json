@@ -3,33 +3,34 @@
     "edicoes": [
         
         {
+            "id": 71,
+            "title": "Edição 71",
+            "description": "A transformação na STIHL exige muito da liderança, que mais do que nunca deve cumprir seus papéis ...",
+            "cover": "https://www.utilissimolider.com.br/UTL/utl-71/assets/utllider71-capa.png",
+            "link": "/edicao71"
+        },
+        {
+            "id": 70,
+            "title": "Edição 70",
+            "description": "A transformação na STIHL não para, e o papel do gestor é essencial para conduzir esse momento.",
+            "cover": "https://www.utilissimolider.com.br/UTL/utl-70/assets/utllider70-capa.png",
+            "link": "/edicao70"
+        },
+        {
+            "id": 69,
+            "title": "Edição 69",
+            "description": "Liderança em tempos difíceis, Depois da enchente hitórica no Rio Grande do Sul...",
+            "cover": "https://www.utilissimolider.com.br/UTL/utl-69/assets/utllider69-capa.png",
+            "link": "/edicao69"
+        },
+        {
             "id": 68,
             "title": "Edição 68",
-            "description": "#Partiu 2028",
+            "description": "#Partiu 2028, Presidente Cláudio reforça a orientação estratégica para 2024-2028...",
             "cover": "https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png",
             "link": "/edicao68"
-        },
-        {
-            "id": 67,
-            "title": "Edição 67",
-            "description": "A liderança ta on.",
-            "cover": "https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png",
-            "link": "/edicao67"
-        },
-        {
-            "id": 66,
-            "title": "Edição 66",
-            "description": "Momento exige foco e união.",
-            "cover": "https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png",
-            "link": "/edicao66"
-        },
-        {
-            "id": 65,
-            "title": "Edição 65",
-            "description": "Educação financeira também é tema de liderança.",
-            "cover": "https://www.utilissimolider.com.br/UTL/utl-68/assets-68/utl-68-capa.png",
-            "link": "/edicao65"
         }
+        
         
     ]
 }
