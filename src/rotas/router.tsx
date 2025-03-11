@@ -8,6 +8,7 @@ import { Page71 } from "../data/pageEdicoes/pageEd71";
 import { Page72 } from "../data/pageEdicoes/pageEd72";
 
 export const router = createBrowserRouter([
+
     {path: "/", element: <Home />},
     {path: "/edicoesanteriores", element: <EdAnterior />},
     {path: "/edicao68", element: <Page68 />},

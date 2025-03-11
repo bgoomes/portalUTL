@@ -3,6 +3,13 @@
     "edicoes": [
         
         {
+            "id": 72,
+            "title": "Edição 72",
+            "description": "Nossa jornada em direção ao futuro começa agora, e o papel das lideranças é fundamental para posicionar ...",
+            "cover": "https://www.utilissimolider.com.br/UTL/utl-72/utl72-capaedicao.png",
+            "link": "/edicao72"
+        },
+        {
             "id": 71,
             "title": "Edição 71",
             "description": "A transformação na STIHL exige muito da liderança, que mais do que nunca deve cumprir seus papéis ...",

@@ -10,8 +10,8 @@ export function Header(){
                     </div>
                     <nav>
                         <ul className="flex flex-row gap-4 text-xs font-stihl-bold">
-                            <li><Link to='/' className=" hover:text-laranjaStihl transition-all">HOME</Link></li>
-                            <li><Link to='/edicoesanteriores' className=" hover:text-laranjaStihl transition-all">EDIÇÕES ANTERIORES</Link></li>
+                            <li><Link to='/' className=" hover:text-laranjaStihl transition-all uppercase">HOME</Link></li>
+                            <li><Link to='/edicoesanteriores' className=" hover:text-laranjaStihl transition-all uppercase">EDIÇÕES ANTERIORES</Link></li>
                         </ul>
                     </nav>
                 </div>

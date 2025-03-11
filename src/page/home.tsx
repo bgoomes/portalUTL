@@ -1,7 +1,9 @@
 import { useLocation } from "react-router-dom";
 
 import { useEffect } from "react";
-import { Page72 } from "../data/pageEdicoes/pageEd72"
+import { Page73 } from "../data/pageEdicoes/pageEd73"
+import { Footer } from "../componentes/footer";
+import { Header } from "../componentes/header";
 
 
 function updateTitle(title: string) {
@@ -13,9 +15,13 @@ function updateTitle(title: string) {
     }, [location, title]);
   }
 export function Home(){
-    updateTitle('#72 JANEIRO 2025 | UTL Líder')
+    updateTitle('#73 MARÇO 25 | UTL Líder')
    
     return (
-        <Page72 />
+      <>
+        <Header />
+        <Page73 />
+        <Footer />
+      </>
     )
 }
