@@ -60,7 +60,7 @@ export function Page73(){
                                 <br />
                                 <div className="bg-laranjaStihl w-full h-[450px] py-6 pl-10 space-y-6">
                                     <h3 className="text-white font-stihl-display text-xl">
-                                        Idade dos colaboradores no grupo sthil
+                                        Idade dos colaboradores no grupo stihl
                                     </h3>
                                     <div className="flex gap-4 text-white text-sm ">
                                         <span>
@@ -125,7 +125,7 @@ export function Page73(){
                                 importante o papel da liderança. “O
                                 líder precisa aproveitar as vantagens da
                                 diversidade geracional, criando espaços
-                                que incentivem o diálogo e enxerguem as
+                                que incentivem o diálogo e 'enxerguem' as
                                 singularidades como ativos valiosos. Essa
                                 abordagem pode desbloquear soluções
                                 inéditas para problemas complexos – e novos
@@ -141,7 +141,7 @@ export function Page73(){
                                 </p>
 
                                 <p className="font-bold">
-                                    Veja mais no box abaixo
+                                    Veja mais dicas no box abaixo.
                                 </p>
                             </div>
                             
@@ -327,8 +327,7 @@ Saúde, Segurança e Meio Ambiente.
                                     <p>
                                     Ele enfatiza que nenhuma modificação
 significativa pode ser alcançada de forma
-isolada. “Quando trabalhamos juntos,
-combinamos conhecimentos e experiências
+isolada.
                                     </p>
                             </div>
                             <div className="sm:w-1/2 space-y-10">
