@@ -219,7 +219,7 @@ parceria com a FGV.
                         Um dos princípios norteadores da estratégia STIHL 2030, a Colaboração é
                         fundamental para que a Empresa siga a sua jornada de transformação.
                         </h3>
-                        <div className="w-full flex gap-4">
+                        <div className="w-full flex flex-col sm:flex-row gap-4">
                             <div className="sm:w-1/2 space-y-4">
                                 <p>A colaboração é a base de qualquer trabalho
                                     em equipe. Em uma organização global como
@@ -296,8 +296,8 @@ parceria com a FGV.
                     <div className="pl-9 mb-10">
                         <img src={mudanca} alt="" />
                     </div>
-                    <div className="w-full pl-9 pr-9">
-                        <div className="w-full flex gap-4">
+                    <div className="w-full pl-9 pr-9 ">
+                        <div className="w-full flex flex-col sm:flex-row gap-4">
                             <div className="sm:w-1/2 space-y-4">
                                 <p>Ao longo dos seus quase 100 anos de
 história, a STIHL teve uma trajetória
